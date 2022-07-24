@@ -1,14 +1,12 @@
 import React from "react";
+import banner from "../../../images/dinosaur.jpeg";
 import "./Slider.css";
 const Slider = () => {
   return (
     <header>
       <div class="owl-carousel owl-theme">
         <div class="item">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0072/5014/9447/files/Slider-1-1920x827.png?v=1647083577"
-            alt="images not found"
-          />
+          <img src={banner} alt="images  found" />
           <div class="cover">
             <div class="container">
               <div class="header-content">
