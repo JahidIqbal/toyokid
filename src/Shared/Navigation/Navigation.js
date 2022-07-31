@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-sm navbar-dark navbar-custom">
         <div
           className="container-fluid"
-          style={{ backgroundColor: " #673AB7" }}
+          style={{ backgroundColor: " #3a7bd5" }}
         >
           <NavLink to="/" className="navbar-brand h5 text-white">
             Toyokid <i className="fas fa-democrat"></i>
