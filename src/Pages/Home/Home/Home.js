@@ -5,6 +5,7 @@ import Aboutus from "../Aboutus/Aboutus";
 import OurClient from "../OurClient/OurClient";
 import OurServices from "../OurServices/OurServices";
 import Slider from "../Slider/Slider";
+import Toys from "../Toys/Toys";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Navigation />
       <Slider />
       <OurServices />
+      <Toys />
       <Aboutus />
       <OurClient />
       <Footer />
