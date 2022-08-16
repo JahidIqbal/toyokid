@@ -12,7 +12,9 @@ const Toys = () => {
   }, []);
   return (
     <div className="mx auto mt-5">
-      <h2 className="fw-bolder display w-100 mt-5">Featured Items</h2>
+      <h2 className="fw-bolder display w-100 mt-5" style={{ color: "#181D4E" }}>
+        Featured Items
+      </h2>
       <p>Kids toys and Games</p>
 
       {toys.length === 0 ? (

@@ -1,7 +1,8 @@
 import React from "react";
-
+import "./Toy.css";
 const Toy = (props) => {
-  const { name, image, description, price } = props.toy;
+  const { name, image, description, regularprice, discountprice, discount } =
+    props.toy;
   return (
     <div>
       <div className="col">
@@ -14,16 +15,23 @@ const Toy = (props) => {
             alt=""
           />
           <div className="card-body">
+            <span className="discount">{discount}</span>
             <h5 className="card-title">{name}</h5>
-            <p className="card-text">
-              <strong>Description</strong>
-              {description}
-            </p>
+            <p className="card-text">{description}</p>
             <p className="text-nowrap">
-              <strong>Price:</strong>
-              {price}
+              <p
+                className=" small text-dark fw-bolder"
+                style={{ color: "#646672" }}
+              >
+                <s style={{ color: "#646672" }}>{regularprice}</s>
+                <p className="fw-bolder">{discountprice}</p>
+              </p>
             </p>
-            <button className="btn btn-info" width="25">
+            <button
+              className="btn btn-info text-white"
+              width="25"
+              style={{ color: "#12AEE0" }}
+            >
               Buy Now
             </button>
           </div>
