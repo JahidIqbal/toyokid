@@ -4,7 +4,9 @@ import "./OurClient.css";
 const OurClient = () => {
   return (
     <section class="logo-list">
-      <h1>Meet our top clients & partners</h1>
+      <h2 className="fw-bolder display w-100 mt-2" style={{ color: "#181D4E" }}>
+        Meet our top clients & partners
+      </h2>
       <div className="container">
         <div className="row">
           <div className="col-lg-2 col-md-4 col-6">
