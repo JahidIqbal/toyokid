@@ -9,7 +9,7 @@ const OurClient = () => {
       </h2>
       <div className="container">
         <div className="row">
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
                 src="https://i.pinimg.com/736x/8b/13/84/8b13848fb29edba2274959cb1d1e99c9--toy-house-kids-logo.jpg"
@@ -18,7 +18,7 @@ const OurClient = () => {
               />
             </Link>
           </div>
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
                 src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30164014/1338.png"
@@ -27,7 +27,7 @@ const OurClient = () => {
               />
             </Link>
           </div>
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
                 src="https://cdn.dribbble.com/users/1700393/screenshots/14456757/media/13060d4fcb0014c716b78743d405c04d.png?compress=1&resize=400x300"
@@ -36,7 +36,7 @@ const OurClient = () => {
               />
             </Link>
           </div>
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
                 src="https://thumbs.dreamstime.com/b/baby-shop-toy-shop-baby-product-logo-design-kids-baby-shop-toy-shop-baby-product-logo-graphics-come-file-types-220459719.jpg"
@@ -45,7 +45,7 @@ const OurClient = () => {
               />
             </Link>
           </div>
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
                 src="https://cdn.dribbble.com/users/1700393/screenshots/14210857/media/53dda477de8b0c57b3abd5d144e89312.png?compress=1&resize=400x300"
@@ -54,10 +54,10 @@ const OurClient = () => {
               />
             </Link>
           </div>
-          <div className="col-lg-2 col-md-4 col-6">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <Link to="/">
               <img
-                src="https://thumbs.dreamstime.com/b/design-kids-baby-shop-toy-shop-baby-product-logo-graphics-come-file-types-very-easy-to-apply-any-software-220459916.jpg"
+                src="https://junotoys.themerex.net/wp-content/uploads/2021/09/cl5-copyright.png"
                 className="img-fluid"
                 alt="Baby toys"
               />

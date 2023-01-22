@@ -6,7 +6,10 @@ import Blog from "../Blog/Blog";
 import OurClient from "../OurClient/OurClient";
 import OurServices from "../OurServices/OurServices";
 import Slider from "../Slider/Slider";
+import Teammembers from "../Teammembers/Teammembers";
 import Toys from "../Toys/Toys";
+// import Test from "./Test/Test";
+// import Test2 from "./Test/Test2";
 
 const Home = () => {
   return (
@@ -18,6 +21,9 @@ const Home = () => {
       <Aboutus />
       <OurClient />
       <Blog />
+      <Teammembers />
+      {/* <Test /> */}
+      {/* <Test2 /> */}
       <Footer />
     </div>
   );
