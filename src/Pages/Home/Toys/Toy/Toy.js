@@ -27,6 +27,15 @@ const Toy = (props) => {
                 <p className="fw-bolder">{discountprice}</p>
               </p>
             </p>
+            {/* <Link to={`/buynow/${_id}`}>
+              <button
+                className="btn btn-info text-white"
+                width="25"
+                style={{ color: "#12AEE0" }}
+              >
+                Buy Now
+              </button>
+            </Link> */}
             <button
               className="btn btn-info text-white"
               width="25"

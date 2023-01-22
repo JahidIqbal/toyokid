@@ -44,6 +44,13 @@ const Navbar = () => {
                   Dashboard
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/login" className="nav-link text-white">
+                  <button type="button" className="btn btn-sm btn-light">
+                    Login
+                  </button>
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

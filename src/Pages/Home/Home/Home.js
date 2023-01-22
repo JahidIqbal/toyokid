@@ -14,7 +14,6 @@ import Toys from "../Toys/Toys";
 const Home = () => {
   return (
     <div>
-      <Navigation />
       <Slider />
       <OurServices />
       <Toys />
@@ -22,9 +21,6 @@ const Home = () => {
       <OurClient />
       <Blog />
       <Teammembers />
-      {/* <Test /> */}
-      {/* <Test2 /> */}
-      <Footer />
     </div>
   );
 };
